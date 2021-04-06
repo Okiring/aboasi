@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jobs.aboasi">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_app_launcher_round"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait" />
+        <activity android:name=".LoginScreen" android:screenOrientation="portrait" />
+        <activity android:name=".RegistrationScreen" android:screenOrientation="portrait" />
+        <activity android:name=".views.hiree.HireeIndexPage" android:screenOrientation="portrait" />
+        <activity android:name=".views.hirer.HirerHomePage" android:screenOrientation="portrait" />
+        <activity android:name=".views.hiree.HireeHomePage" android:screenOrientation="portrait" />
+        <activity android:name=".ProfileScreen"  android:screenOrientation="portrait"/>
+        <activity android:name=".FullJobReview"  android:screenOrientation="portrait"/>
+        <activity android:name=".views.hiree.JobApplication"  android:screenOrientation="portrait"/>
+        <activity android:name=".SuccessPage"  android:screenOrientation="portrait"/>
+        <activity android:name=".views.hirer.HirerIndexPage"  android:screenOrientation="portrait"/>
+        <activity android:name=".views.hirer.HirerJobDetails"  android:screenOrientation="portrait"/>
+        <activity android:name=".views.hirer.ApplicantsPage"  android:screenOrientation="portrait"/>
+        <activity android:name=".views.hirer.AddJobPosting"  android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

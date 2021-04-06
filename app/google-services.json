@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "882521766182",
+    "project_id": "aboasi",
+    "storage_bucket": "aboasi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882521766182:android:df9945a1f692ed6706e9e7",
+        "android_client_info": {
+          "package_name": "com.jobs.aboasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882521766182-o3amr0s1bq2rfrips7jg6cuaaklcji8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJjHRbLWxBFZaMAIM2tB6cIEUjR15jNDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882521766182-o3amr0s1bq2rfrips7jg6cuaaklcji8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

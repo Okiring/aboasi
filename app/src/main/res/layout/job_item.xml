@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:id="@+id/job_item"
+    android:background="@color/white_text_color"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="Need an help in upload my android app to Google Play account (Im looking for developer account)"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"/>
+
+   <LinearLayout
+       android:layout_marginStart="10dp"
+       android:layout_marginEnd="10dp"
+       android:layout_marginTop="10dp"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TextView
+
+           android:text="Budget: "
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+       <TextView
+           android:layout_marginStart="5dp"
+           android:id="@+id/budget"
+           android:textStyle="bold"
+           android:textColor="@color/colorSecondary"
+           android:text="Cedi 200,000"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+       <com.github.curioustechizen.ago.RelativeTimeTextView
+           android:layout_marginStart="10dp"
+           android:id="@+id/created"
+           android:text="Posted 3h ago"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+   </LinearLayout>
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/description"
+        android:text="Im looking for android developers to upload my new app to his Google Play developer.
+I don't have developer account."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:text="Category: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginStart="5dp"
+            android:id="@+id/category"
+            android:textStyle="bold"
+            android:text="Cleaner"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginStart="10dp"
+            android:text="Experience Level: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginStart="5dp"
+            android:text="Entry Level"
+            android:id="@+id/experience"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:text="Location: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+
+            android:id="@+id/village"
+            android:text="village"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:text="Deadline: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginStart="5dp"
+                android:id="@+id/deadline"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="01/01/22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_marginTop="10dp"
+        android:background="@color/divider_color"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</LinearLayout>
